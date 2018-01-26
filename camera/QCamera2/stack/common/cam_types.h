@@ -1814,7 +1814,6 @@ typedef enum {
     CAM_INTF_META_CURRENT_SCENE,
     CAM_INTF_META_AEC_INFO,
     CAM_INTF_META_SENSOR_INFO,
-    CAM_INTF_PARAM_LEECO_RESERVED_1,
     CAM_INTF_META_CHROMATIX_LITE_ISP,
     CAM_INTF_META_CHROMATIX_LITE_PP,
     CAM_INTF_META_CHROMATIX_LITE_AE,
@@ -2073,13 +2072,13 @@ typedef enum {
     CAM_INTF_PARM_REQUEST_OPS_MODE,
     /*Black level parameters*/
     CAM_INTF_META_LDAF_EXIF,
-    CAM_INTF_META_BLACK_LEVEL_SOURCE_PATTERN,
-    CAM_INTF_META_BLACK_LEVEL_APPLIED_PATTERN, /* 200 */
+    CAM_INTF_META_BLACK_LEVEL_SOURCE_PATTERN, /* 200 */
+    CAM_INTF_META_BLACK_LEVEL_APPLIED_PATTERN, 
     CAM_INTF_META_CDS_DATA,
     /*3A low light level information*/
     CAM_INTF_META_LOW_LIGHT,
     /* dynamic feature detection */
-    CAM_INTF_META_IMG_DYN_FEAT, /* 200 */
+    CAM_INTF_META_IMG_DYN_FEAT,
     /*Parameter entry to communicate manual
     capture type*/
     CAM_INTF_PARM_MANUAL_CAPTURE_TYPE,
@@ -2092,9 +2091,9 @@ typedef enum {
     /* face gaze detection */
     CAM_INTF_META_FACE_GAZE,
     /* face smile detection */
-    CAM_INTF_META_FACE_SMILE,
+    CAM_INTF_META_FACE_SMILE, /* 210 */
     /* face landmark detection */
-    CAM_INTF_META_FACE_LANDMARK, /* 210 */
+    CAM_INTF_META_FACE_LANDMARK, 
     /* face contour detection */
     CAM_INTF_META_FACE_CONTOUR,
     /* Whether EIS is enabled */
@@ -2104,7 +2103,7 @@ typedef enum {
     /* Param for updating initial exposure index value*/
     CAM_INTF_PARM_INITIAL_EXPOSURE_INDEX,
     /* Param for enabling instant aec*/
-    CAM_INTF_PARM_INSTANT_AEC,
+    //CAM_INTF_PARM_INSTANT_AEC, /* 216 */
     CAM_INTF_PARM_MAX
 } cam_intf_parm_type_t;
 
