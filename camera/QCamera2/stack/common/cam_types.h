@@ -1814,6 +1814,7 @@ typedef enum {
     CAM_INTF_META_CURRENT_SCENE,
     CAM_INTF_META_AEC_INFO,
     CAM_INTF_META_SENSOR_INFO,
+    CAM_INTF_META_LEECO_RESERVED_1,
     CAM_INTF_META_CHROMATIX_LITE_ISP,
     CAM_INTF_META_CHROMATIX_LITE_PP,
     CAM_INTF_META_CHROMATIX_LITE_AE,
@@ -2037,7 +2038,7 @@ typedef enum {
     /* Manual White balance gains */
     CAM_INTF_PARM_WB_MANUAL,
     /* Offline Data Overwrite */
-    CAM_INTF_PARM_HW_DATA_OVERWRITE,
+    //CAM_INTF_PARM_HW_DATA_OVERWRITE,
     /* IMG LIB reprocess debug section */
     CAM_INTF_META_IMGLIB, /* cam_intf_meta_imglib_t */
     /* OEM specific parameters */
@@ -2101,9 +2102,9 @@ typedef enum {
     /* Touch exposure compensation (EV) status */
     CAM_INTF_META_TOUCH_AE_RESULT,
     /* Param for updating initial exposure index value*/
-    CAM_INTF_PARM_INITIAL_EXPOSURE_INDEX,
+    CAM_INTF_PARM_INITIAL_EXPOSURE_INDEX, /* 215 */
     /* Param for enabling instant aec*/
-    CAM_INTF_PARM_INSTANT_AEC,
+    //CAM_INTF_PARM_INSTANT_AEC,
     CAM_INTF_PARM_MAX
 } cam_intf_parm_type_t;
 
