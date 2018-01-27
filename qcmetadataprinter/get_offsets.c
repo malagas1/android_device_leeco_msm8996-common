@@ -105,7 +105,6 @@ int main() {
     PRINT(CAM_INTF_META_LENS_STATE,    pMetadata);
     PRINT(CAM_INTF_META_LENS_OPT_STAB_MODE,    pMetadata);
     PRINT(CAM_INTF_META_VIDEO_STAB_MODE,    pMetadata);
-    //PRINT(CAM_INTF_META_LENS_FOCUS_STATE,    pMetadata);
     PRINT(CAM_INTF_META_NOISE_REDUCTION_MODE,    pMetadata);
     PRINT(CAM_INTF_META_NOISE_REDUCTION_STRENGTH,    pMetadata);
     PRINT(CAM_INTF_META_SCALER_CROP_REGION,    pMetadata);
@@ -129,6 +128,7 @@ int main() {
     PRINT(CAM_INTF_META_EXIF_DEBUG_AF,    pMetadata);
     PRINT(CAM_INTF_META_EXIF_DEBUG_ASD,    pMetadata);
     PRINT(CAM_INTF_META_EXIF_DEBUG_STATS,    pMetadata);
+    PRINT(CAM_INTF_META_LEECO_RESERVED_1,    pMetadata);
     PRINT(CAM_INTF_PARM_EFFECT,    pMetadata);
     PRINT(CAM_INTF_META_PRIVATE_DATA,    pMetadata);
     PRINT(CAM_INTF_PARM_HAL_VERSION,    pMetadata);
@@ -232,7 +232,6 @@ int main() {
     PRINT(CAM_INTF_PARM_CAC,    pMetadata);
     PRINT(CAM_INTF_META_NEUTRAL_COL_POINT,    pMetadata);
     PRINT(CAM_INTF_PARM_ROTATION,    pMetadata);
-    PRINT(CAM_INTF_PARM_HW_DATA_OVERWRITE,    pMetadata);
     PRINT(CAM_INTF_META_IMGLIB,    pMetadata);
     PRINT(CAM_INTF_PARM_CAPTURE_FRAME_CONFIG,    pMetadata);
     PRINT(CAM_INTF_PARM_CUSTOM,    pMetadata);
@@ -247,7 +246,7 @@ int main() {
     PRINT(CAM_INTF_PARM_MANUAL_CAPTURE_TYPE,    pMetadata);
     PRINT(CAM_INTF_AF_STATE_TRANSITION,    pMetadata);
     PRINT(CAM_INTF_PARM_INITIAL_EXPOSURE_INDEX,    pMetadata);
-    PRINT(CAM_INTF_PARM_INSTANT_AEC,    pMetadata);
+
 
     dlclose(handle);
     return 0;
