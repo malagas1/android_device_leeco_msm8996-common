@@ -897,7 +897,6 @@ typedef struct {
     INCLUDE(CAM_INTF_PARM_RAW_DIMENSION,                cam_dimension_t,             1);
     INCLUDE(CAM_INTF_PARM_TINTLESS,                     int32_t,                     1);
     INCLUDE(CAM_INTF_PARM_WB_MANUAL,                    cam_manual_wb_parm_t,        1);
-	INCLUDE(CAM_INTF_META_LEECO_RESERVED_1,             char,                        4);
     INCLUDE(CAM_INTF_PARM_CDS_MODE,                     int32_t,                     1);
     INCLUDE(CAM_INTF_PARM_EZTUNE_CMD,                   cam_eztune_cmd_data_t,       1);
     INCLUDE(CAM_INTF_PARM_INT_EVT,                      cam_int_evt_params_t,        1);
