@@ -1839,7 +1839,7 @@ typedef enum {
     CAM_INTF_PARM_CDS_MODE,
     CAM_INTF_PARM_TONE_MAP_MODE,
     CAM_INTF_PARM_CAPTURE_FRAME_CONFIG, /* 90 */
-    CAM_INTF_PARM_DUAL_LED_CALIBRATION,
+    //CAM_INTF_PARM_DUAL_LED_CALIBRATION,
 
     /* stream based parameters */
     CAM_INTF_PARM_DO_REPROCESS,
@@ -2104,7 +2104,7 @@ typedef enum {
     /* Param for updating initial exposure index value*/
     CAM_INTF_PARM_INITIAL_EXPOSURE_INDEX, /* 215 */
     /* Param for enabling instant aec*/
-    //CAM_INTF_PARM_INSTANT_AEC,
+    CAM_INTF_PARM_INSTANT_AEC,
     CAM_INTF_PARM_MAX
 } cam_intf_parm_type_t;
 

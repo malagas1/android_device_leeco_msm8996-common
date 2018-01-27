@@ -907,7 +907,7 @@ typedef struct {
     INCLUDE(CAM_INTF_PARM_LONGSHOT_ENABLE,              int8_t,                      1);
     INCLUDE(CAM_INTF_PARM_TONE_MAP_MODE,                uint32_t,                    1);
     INCLUDE(CAM_INTF_META_TOUCH_AE_RESULT,              int32_t,                     1);
-    INCLUDE(CAM_INTF_PARM_DUAL_LED_CALIBRATION,         int32_t,                    1);
+    //INCLUDE(CAM_INTF_PARM_DUAL_LED_CALIBRATION,         int32_t,                    1);
 
     /* HAL3 specific */
     INCLUDE(CAM_INTF_META_STREAM_INFO,                  cam_stream_size_info_t,      1);
@@ -957,7 +957,7 @@ typedef struct {
     INCLUDE(CAM_INTF_PARM_MANUAL_CAPTURE_TYPE,          cam_manual_capture_type,     1);
     INCLUDE(CAM_INTF_AF_STATE_TRANSITION,               uint8_t,                     1);
     INCLUDE(CAM_INTF_PARM_INITIAL_EXPOSURE_INDEX,       uint32_t,                    1);
-    //INCLUDE(CAM_INTF_PARM_INSTANT_AEC,                  uint8_t,                     1);
+    INCLUDE(CAM_INTF_PARM_INSTANT_AEC,                  uint8_t,                     1);
 } metadata_data_t;
 
 /* Update clear_metadata_buffer() function when a new is_xxx_valid is added to
