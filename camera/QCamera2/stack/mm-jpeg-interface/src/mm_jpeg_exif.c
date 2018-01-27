@@ -637,7 +637,7 @@ int process_meta_data(metadata_buffer_t *p_meta, QOMX_EXIF_INFO *exif_info,
         CAM_INTF_META_ASD_SCENE_INFO, p_meta) {
       scene_info = (cam_asd_decision_t*)scene_cap_type;
       val_short = (short) scene_info->detected_scene;
-    }
+      }
 
     rc = addExifEntry(exif_info, EXIFTAGID_SCENE_CAPTURE_TYPE, EXIF_SHORT,
       sizeof(val_short)/2, &val_short);

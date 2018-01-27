@@ -1634,7 +1634,6 @@ typedef  struct {
     cam_asd_hdr_scene_data_t hdr_scene_data;
     uint8_t is_asd_decision_valid;
     cam_auto_scene_t scene; //scene type as decided by ASD
-    cam_asd_decision_t cam_asd_info;
 
     char private_metadata[MAX_METADATA_PRIVATE_PAYLOAD_SIZE_IN_BYTES];
 
