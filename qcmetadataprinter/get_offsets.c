@@ -46,6 +46,12 @@ int main() {
 
 	PRINT(CAM_INTF_META_HISTOGRAM,    pMetadata);
     PRINT(CAM_INTF_META_FACE_DETECTION,    pMetadata);
+    PRINT(CAM_INTF_META_FACE_RECOG,    pMetadata);
+    PRINT(CAM_INTF_META_FACE_BLINK,    pMetadata);
+    PRINT(CAM_INTF_META_FACE_GAZE,    pMetadata);
+    PRINT(CAM_INTF_META_FACE_SMILE,    pMetadata);
+    PRINT(CAM_INTF_META_FACE_LANDMARK,    pMetadata);
+    PRINT(CAM_INTF_META_FACE_CONTOUR,    pMetadata);
     PRINT(CAM_INTF_META_AUTOFOCUS_DATA,    pMetadata);
     PRINT(CAM_INTF_META_CDS_DATA,    pMetadata);
     PRINT(CAM_INTF_PARM_UPDATE_DEBUG_LEVEL,    pMetadata);
@@ -99,7 +105,7 @@ int main() {
     PRINT(CAM_INTF_META_LENS_STATE,    pMetadata);
     PRINT(CAM_INTF_META_LENS_OPT_STAB_MODE,    pMetadata);
     PRINT(CAM_INTF_META_VIDEO_STAB_MODE,    pMetadata);
-    PRINT(CAM_INTF_META_LENS_FOCUS_STATE,    pMetadata);
+    //PRINT(CAM_INTF_META_LENS_FOCUS_STATE,    pMetadata);
     PRINT(CAM_INTF_META_NOISE_REDUCTION_MODE,    pMetadata);
     PRINT(CAM_INTF_META_NOISE_REDUCTION_STRENGTH,    pMetadata);
     PRINT(CAM_INTF_META_SCALER_CROP_REGION,    pMetadata);
@@ -240,6 +246,7 @@ int main() {
     PRINT(CAM_INTF_META_IMG_DYN_FEAT,    pMetadata);
     PRINT(CAM_INTF_PARM_MANUAL_CAPTURE_TYPE,    pMetadata);
     PRINT(CAM_INTF_AF_STATE_TRANSITION,    pMetadata);
+    PRINT(CAM_INTF_PARM_INITIAL_EXPOSURE_INDEX,    pMetadata);
 
     dlclose(handle);
     return 0;
