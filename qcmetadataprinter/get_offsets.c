@@ -44,7 +44,7 @@ int main() {
     int blob_size=0;
     int oss_size=0;
 
-	PRINT(CAM_INTF_META_HISTOGRAM,    pMetadata);
+    PRINT(CAM_INTF_META_HISTOGRAM,    pMetadata);
     PRINT(CAM_INTF_META_FACE_DETECTION,    pMetadata);
     PRINT(CAM_INTF_META_FACE_RECOG,    pMetadata);
     PRINT(CAM_INTF_META_FACE_BLINK,    pMetadata);
