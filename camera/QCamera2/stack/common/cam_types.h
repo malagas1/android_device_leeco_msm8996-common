@@ -2037,6 +2037,7 @@ typedef enum {
     CAM_INTF_PARM_MANUAL_FOCUS_POS, /* 180 */
     /* Manual White balance gains */
     CAM_INTF_PARM_WB_MANUAL,
+	CAM_INTF_PARM_LEECO_RESERVED_2,
     /* Offline Data Overwrite */
     //CAM_INTF_PARM_HW_DATA_OVERWRITE,
     /* IMG LIB reprocess debug section */
@@ -2104,7 +2105,7 @@ typedef enum {
     /* Param for updating initial exposure index value*/
     CAM_INTF_PARM_INITIAL_EXPOSURE_INDEX, /* 215 */
     /* Param for enabling instant aec*/
-    CAM_INTF_PARM_INSTANT_AEC,
+    //CAM_INTF_PARM_INSTANT_AEC,
     CAM_INTF_PARM_MAX
 } cam_intf_parm_type_t;
 

@@ -897,6 +897,7 @@ typedef struct {
     INCLUDE(CAM_INTF_PARM_RAW_DIMENSION,                cam_dimension_t,             1);
     INCLUDE(CAM_INTF_PARM_TINTLESS,                     int32_t,                     1);
     INCLUDE(CAM_INTF_PARM_WB_MANUAL,                    cam_manual_wb_parm_t,        1);
+	INCLUDE(CAM_INTF_META_LEECO_RESERVED_1,             char,                        4);
     INCLUDE(CAM_INTF_PARM_CDS_MODE,                     int32_t,                     1);
     INCLUDE(CAM_INTF_PARM_EZTUNE_CMD,                   cam_eztune_cmd_data_t,       1);
     INCLUDE(CAM_INTF_PARM_INT_EVT,                      cam_int_evt_params_t,        1);
@@ -957,7 +958,7 @@ typedef struct {
     INCLUDE(CAM_INTF_PARM_MANUAL_CAPTURE_TYPE,          cam_manual_capture_type,     1);
     INCLUDE(CAM_INTF_AF_STATE_TRANSITION,               uint8_t,                     1);
     INCLUDE(CAM_INTF_PARM_INITIAL_EXPOSURE_INDEX,       uint32_t,                    1);
-    INCLUDE(CAM_INTF_PARM_INSTANT_AEC,                  uint8_t,                     1);
+    //INCLUDE(CAM_INTF_PARM_INSTANT_AEC,                  uint8_t,                     1);
 } metadata_data_t;
 
 /* Update clear_metadata_buffer() function when a new is_xxx_valid is added to
