@@ -44,14 +44,8 @@ int main() {
     int blob_size=0;
     int oss_size=0;
 
-    PRINT(CAM_INTF_META_HISTOGRAM,    pMetadata);
+	PRINT(CAM_INTF_META_HISTOGRAM,    pMetadata);
     PRINT(CAM_INTF_META_FACE_DETECTION,    pMetadata);
-    PRINT(CAM_INTF_META_FACE_RECOG,    pMetadata);
-    PRINT(CAM_INTF_META_FACE_BLINK,    pMetadata);
-    PRINT(CAM_INTF_META_FACE_GAZE,    pMetadata);
-    PRINT(CAM_INTF_META_FACE_SMILE,    pMetadata);
-    PRINT(CAM_INTF_META_FACE_LANDMARK,    pMetadata);
-    PRINT(CAM_INTF_META_FACE_CONTOUR,    pMetadata);
     PRINT(CAM_INTF_META_AUTOFOCUS_DATA,    pMetadata);
     PRINT(CAM_INTF_META_CDS_DATA,    pMetadata);
     PRINT(CAM_INTF_PARM_UPDATE_DEBUG_LEVEL,    pMetadata);
@@ -59,7 +53,7 @@ int main() {
     PRINT(CAM_INTF_META_PREP_SNAPSHOT_DONE,    pMetadata);
     PRINT(CAM_INTF_META_GOOD_FRAME_IDX_RANGE,    pMetadata);
     PRINT(CAM_INTF_META_ASD_HDR_SCENE_DATA,    pMetadata);
-    PRINT(CAM_INTF_META_ASD_SCENE_INFO,    pMetadata);
+    PRINT(CAM_INTF_META_ASD_SCENE_TYPE,    pMetadata);
     PRINT(CAM_INTF_META_CURRENT_SCENE,    pMetadata);
     PRINT(CAM_INTF_META_AWB_INFO,    pMetadata);
     PRINT(CAM_INTF_META_FOCUS_POSITION,    pMetadata);
@@ -105,7 +99,7 @@ int main() {
     PRINT(CAM_INTF_META_LENS_STATE,    pMetadata);
     PRINT(CAM_INTF_META_LENS_OPT_STAB_MODE,    pMetadata);
     PRINT(CAM_INTF_META_VIDEO_STAB_MODE,    pMetadata);
-    //PRINT(CAM_INTF_META_LENS_FOCUS_STATE,    pMetadata);
+    PRINT(CAM_INTF_META_LENS_FOCUS_STATE,    pMetadata);
     PRINT(CAM_INTF_META_NOISE_REDUCTION_MODE,    pMetadata);
     PRINT(CAM_INTF_META_NOISE_REDUCTION_STRENGTH,    pMetadata);
     PRINT(CAM_INTF_META_SCALER_CROP_REGION,    pMetadata);
@@ -129,6 +123,7 @@ int main() {
     PRINT(CAM_INTF_META_EXIF_DEBUG_AF,    pMetadata);
     PRINT(CAM_INTF_META_EXIF_DEBUG_ASD,    pMetadata);
     PRINT(CAM_INTF_META_EXIF_DEBUG_STATS,    pMetadata);
+    PRINT(CAM_INTF_META_ASD_SCENE_CAPTURE_TYPE,    pMetadata);
     PRINT(CAM_INTF_PARM_EFFECT,    pMetadata);
     PRINT(CAM_INTF_META_PRIVATE_DATA,    pMetadata);
     PRINT(CAM_INTF_PARM_HAL_VERSION,    pMetadata);
@@ -199,7 +194,6 @@ int main() {
     PRINT(CAM_INTF_PARM_LONGSHOT_ENABLE,    pMetadata);
     PRINT(CAM_INTF_PARM_TONE_MAP_MODE,    pMetadata);
     PRINT(CAM_INTF_META_TOUCH_AE_RESULT,    pMetadata);
-    PRINT(CAM_INTF_PARM_DUAL_LED_CALIBRATION,    pMetadata);
     PRINT(CAM_INTF_META_STREAM_INFO,    pMetadata);
     PRINT(CAM_INTF_META_AEC_MODE,    pMetadata);
     PRINT(CAM_INTF_META_AEC_PRECAPTURE_TRIGGER,    pMetadata);
@@ -246,8 +240,6 @@ int main() {
     PRINT(CAM_INTF_META_IMG_DYN_FEAT,    pMetadata);
     PRINT(CAM_INTF_PARM_MANUAL_CAPTURE_TYPE,    pMetadata);
     PRINT(CAM_INTF_AF_STATE_TRANSITION,    pMetadata);
-    PRINT(CAM_INTF_PARM_INITIAL_EXPOSURE_INDEX,    pMetadata);
-    PRINT(CAM_INTF_PARM_INSTANT_AEC,    pMetadata);
 
     dlclose(handle);
     return 0;
